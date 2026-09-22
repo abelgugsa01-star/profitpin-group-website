@@ -80,3 +80,27 @@ Screenshots: use the tutorial-video frames in each repo's `website/tutorial-medi
 - **Tagline (60):** Auction trust account reconciliation that names every gap
 - **First comment (maker):** I built SaleLedger after watching auction houses spend an afternoon a month proving their trust account with three spreadsheets. It takes the three files they already export, runs the three-way check and lists every exception in plain English — on their own PC, nothing uploaded. Free for 30 days; I'd love to hear what breaks on your data.
 - **Topics:** Accounting, Fintech, Productivity, Windows
+
+
+---
+
+## How each one is submitted (2026-09)
+
+Claude can fill every form and write every word, but **creating the accounts is yours** — each of these verifies a
+real person as the vendor. Plan on ~15 minutes per site with Claude driving the browser beside you.
+
+| Site | What it takes | Who does what |
+|---|---|---|
+| **Capterra** (covers GetApp + Software Advice) | Vendor account at `vendors.capterra.com`, work email, company details, then one listing per product. Free listing is approved by a human in a few days. | You: create the vendor account and verify the email. Claude: fills the four product listings, uploads the screenshots, sets categories and pricing. |
+| **G2** | Seller account at `sell.g2.com`; G2 wants a LinkedIn or work-email identity and usually a company page. Profile goes live immediately, but a product with **zero reviews stays invisible** — G2 is only worth it once you can ask 2–3 customers for a review. | You: seller account. Claude: profile copy, screenshots, categories. Do this after the first paying customers. |
+| **AlternativeTo** | Ordinary free account, then "Add application" per product. Community-moderated; listings that read like ads get rejected, so the copy stays factual. | You: account. Claude: submits all four with the descriptions, links, platform and licence fields. |
+| **SaaSHub / Crozdesk / SourceForge** | Same shape, lower traffic. Worth doing after the three above. | Same split. |
+| **Product Hunt** | Personal account, one launch per product, a week apart. Launch day matters (Tue–Thu, 12:01am PT). | You: account and the "maker" comment in your own voice. Claude: tagline, description, gallery, first-comment draft. |
+
+**Order Claude recommends:** AlternativeTo first (no gatekeeping, fast), Capterra next (real buyer traffic),
+G2 once there are customers who can review, Product Hunt when SubLimit or LeafLedger has a story to tell.
+
+**Every listing must carry:** the tracked link (`?utm_source=capterra` etc.), the correct price, "Windows 10/11"
+(or web, for StockStart), and support@<product domain>. Never the home address.
+
+Screenshots are ready on the desktop in **ProfitPin - Listing Screenshots** (fictional practice data only).
