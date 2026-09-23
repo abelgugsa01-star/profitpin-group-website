@@ -64,3 +64,40 @@ And if one of these is your 9pm, I'd honestly like to know how you handle it now
 One post per product, each built on a single concrete mistake and what it costs — starting with SubLimit (a
 subcontractor whose similarly-situated status was assumed, not verified) or SaleLedger (the $2,950 transfer to the
 operating account with no settlement behind it, which is the classic commingling finding).
+
+---
+
+## Group post — GovCon groups (SubLimit)
+
+Written for the three private GovCon groups (join requests sent 2026-09-22: Government Contracting Community 20K,
+US Government Contracting/Procurement 10K, GovCon Finance Professionals 2K). Two of the three ban service ads, so
+this is an explainer, not a pitch: it teaches the actual rule, discloses the bias in one line, and ends on a free
+tool with no sign-up. Same text works on Reddit r/GovernmentContracting, where disclosure is expected.
+
+Do not post it until a group approves the membership, and read that group's pinned rules first.
+
+---
+
+The most common mistake I see with limitations on subcontracting: tracking it in hours.
+
+The clause doesn't measure hours. FAR 52.219-14 measures dollars the government paid you against dollars you paid subcontractors — and only the subcontractors that aren't similarly situated.
+
+Four things that catch people out:
+
+1. It's payments, not invoices. The denominator is what the government has actually paid under the contract for the period, not what you've billed.
+
+2. "Similarly situated" is a fact you prove, not a label. The sub has to hold the same small-business status the contract was set aside for and be small under the contract's NAICS code. A firm that looks the part isn't one until you've verified it and dated the evidence. Unverified means it counts against you.
+
+3. A similarly situated sub's own subcontracting counts against you. If they pass work further down, that lower tier lands back in your numerator. Ask them for the figures.
+
+4. Materials are excluded — but only on the right contract types. Supplies and construction exclude the cost of materials. Services don't.
+
+The limits, for reference: 50% services, 50% supplies (non-manufacturer rule aside), 85% general construction, 75% special trade construction. And compliance is measured over the period of performance, not per month — monthly tracking is how you avoid a surprise at the end, but the monthly number isn't the legal test.
+
+The part worth writing down: do the arithmetic exactly, and keep the evidence behind every input — payment records, subcontract allocations, status verification with dates. "We think we're under" isn't an answer when a contracting officer asks on short notice.
+
+I put up a free calculator that does this in the browser — contract type, government payments, each sub marked similarly situated or not, materials excluded where the rule allows. Nothing is stored or sent anywhere: https://getsublimit.com/subcontracting-limit-calculator.html
+
+Full disclosure: I build compliance software, so that's my bias on the table. The calculator is free and needs no sign-up.
+
+Anyone who's been through an SBA review on this — I'd like to hear where the edge cases bit you.
