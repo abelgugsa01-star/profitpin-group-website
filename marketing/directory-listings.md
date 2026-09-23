@@ -174,3 +174,40 @@ into the first-step box instead.
 
 **Still owner-only:** AlternativeTo sign-in (Google, inside the Claude browser pane — a Chrome session is
 invisible to it), and any "verify you are human" check.
+
+---
+
+## AlternativeTo — all four submitted 2026-09-23 (account: Forever-Ethiopian, Google sign-in)
+
+All four are in the **normal review queue**, which AlternativeTo itself describes as several thousand apps deep
+and "growing faster than we can review it". Priority review costs $5 per app and was **not** taken — see
+[no paid placement]. Track them at https://alternativeto.net/my-submissions/
+
+| Product | Platform | Tags | Alternative linked |
+|---|---|---|---|
+| SaleLedger | Windows | accounting, accounting-software, bookkeeping, bank-reconciliation, auction | Intuit QuickBooks |
+| LeafLedger | Windows | compliance, regulatory-compliance, regulatory-reporting, tobacco, tax-reporting | none available |
+| SubLimit | Windows | government-contracting, government-contracts, compliance, regulatory-compliance, contract-management | none available |
+| StockStart | Online | field-service-management, hvac, invoice-management, inventory-management, pricing-optimization | none available |
+
+All four: Commercial pricing, Proprietary source, English, company **Profitpin LLC** (created on AlternativeTo,
+US, profitpingroup.com).
+
+**Their rules, learned the hard way:**
+- **No UTM tags on the website link.** "Many of our users are against tracking and want to see a clean official
+  URL only." They tell developers to read the HTTP referer instead — which `growth/traffic.py` already records,
+  so AlternativeTo visits will still be attributed. Do not add UTMs here (unlike SaaSHub, which invites them).
+- **An icon is mandatory** — the form will not submit without one. Hence `icon-512.png` on every site.
+- Geographic rule: apps targeted at one country are rejected, **except** ones available across the whole USA or
+  whole Europe. All four qualify; say so in the change note.
+- Apps with no alternatives listed are "almost invisible" and rarely appear in search. Only SaleLedger had an
+  honest one available (QuickBooks). The other three had no true alternative in AlternativeTo's database and
+  **none was invented** — that would risk the listing being declined and would be false. Revisit when peers appear.
+
+## Product icons (new, 2026-09-23)
+
+`icon-512.png` now ships on all four sites, plus an `apple-touch-icon` link on every page. Built by
+`scratchpad/build_icons.py` in the house style the sites already used: a dark rounded square with a light glyph.
+SaleLedger and StockStart reproduce their existing marks exactly. **LeafLedger had been serving a copy of
+SaleLedger's favicon** and SubLimit had no icon at all; both now have their own (a leaf, and a limit meter).
+These are functional marks, not a designed brand identity — worth replacing if a designer is ever hired.
