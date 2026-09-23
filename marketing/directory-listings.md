@@ -104,3 +104,42 @@ G2 once there are customers who can review, Product Hunt when SubLimit or LeafLe
 (or web, for StockStart), and support@<product domain>. Never the home address.
 
 Screenshots are ready on the desktop in **ProfitPin - Listing Screenshots** (fictional practice data only).
+
+---
+
+## Submission log and what each gate actually is (verified 2026-09-23)
+
+**SaaSHub — SaleLedger SUBMITTED, live at https://www.saashub.com/saleledger ("Pending approval").**
+Submitted anonymously, no account. Three steps: listing -> competitor linking -> categories.
+- Tagline used (249/250 chars, their hard limit): "Windows software that reconciles an auction house's trust account monthly from the settlement export,
+  QuickBooks payouts and the bank statement. Names every out-of-balance item instead of plugging it, and prints
+  the check register examiners ask for."
+- Categories: Accounting, Auction Software, Bookkeeping And Accounting; then Accounting & Finance, Bookkeeping,
+  Small Business, Finance, Auctions.
+- Competitor linked: QuickBooks Online. SaleLedger now shows as an alternative on QuickBooks Online's page —
+  that is where the traffic comes from, so always link at least one real incumbent.
+- Contact email given: support@getsaleledger.com (must be on the product's domain to earn the verified badge).
+- The submission is UNCLAIMED. Registering and claiming it is still outstanding.
+- **Hard limit found:** "Please register to submit more than one product." One anonymous submission per visitor.
+  LeafLedger, SubLimit and StockStart therefore need a SaaSHub account (email + username + password, no Google SSO).
+  The username is public on listings — use `profitpin`, not a personal handle.
+- SaaSHub puts Cloudflare "Verify you are human" on /login and /register. Claude does not complete bot checks,
+  so that click is always the owner's.
+
+**SaaSHub also publishes a curated list of 110 submission sites** (https://www.saashub.com/submit/list) with
+traffic and domain scores. Assessment: most are startup-launch and AI-tool directories (Toolify, There's An AI
+For That, DevHunt, BetaList, Startup Stash) whose audience will never buy trust-accounting or TTB software.
+**Do not spray them.** The only ones that reach these buyers are the B2B software directories — Capterra,
+GetApp, Software Advice, G2, TrustRadius, SoftwareSuggest, Crozdesk, SaaSworthy, GoodFirms — and every one of
+those gates on a verified vendor account, because they sell vendor leads.
+
+**Launching Next** (launchingnext.com/submit) — free, genuinely no account, but the form ends in a math captcha
+(a bot check, so owner-only) and the audience is startup-watchers. Judged not worth the time.
+
+**AlternativeTo** — /software/new/ redirects to /login. Google, GitHub or Apple sign-in, so no new password.
+Signing in inside the Claude browser pane is what matters: a session in the owner's own Chrome is invisible to
+the pane, and the pane's session does not survive the pane being closed.
+
+**Narrow plan, not wide:** SaaSHub (3 remaining) and AlternativeTo (4) first, then Capterra — one Gartner
+submission covers Capterra + GetApp + Software Advice and is the only directory on the list where an auction
+bookkeeper actually goes looking. Skip the other hundred.
