@@ -120,8 +120,8 @@ Submitted anonymously, no account. Three steps: listing -> competitor linking ->
   that is where the traffic comes from, so always link at least one real incumbent.
 - Contact email given: support@getsaleledger.com (must be on the product's domain to earn the verified badge).
 - The submission is UNCLAIMED. Registering and claiming it is still outstanding.
-- **Hard limit found:** "Please register to submit more than one product." One anonymous submission per visitor.
-  LeafLedger, SubLimit and StockStart therefore need a SaaSHub account (email + username + password, no Google SSO).
+- **Gate 1 (cleared):** "Please register to submit more than one product." One anonymous submission per visitor.
+  Account created 2026-09-23: username `profitpin`, email support@profitpingroup.com. No Google SSO.
   The username is public on listings — use `profitpin`, not a personal handle.
 - SaaSHub puts Cloudflare "Verify you are human" on /login and /register. Claude does not complete bot checks,
   so that click is always the owner's.
@@ -143,3 +143,34 @@ the pane, and the pane's session does not survive the pane being closed.
 **Narrow plan, not wide:** SaaSHub (3 remaining) and AlternativeTo (4) first, then Capterra — one Gartner
 submission covers Capterra + GetApp + Software Advice and is the only directory on the list where an auction
 bookkeeper actually goes looking. Skip the other hundred.
+
+### After the account existed (same day)
+
+**LeafLedger SUBMITTED** — https://www.saashub.com/leafledger, pending approval. Linked as a competitor to
+Thomson Reuters ONESOURCE (the only honest adjacent in their suggestion grid; the "Leaf*" matches are cannabis
+products and were deliberately skipped). Categories: Regulatory Compliance, Tax Compliance, Manufacturing, then
+Governance/Risk/Compliance, Compliance, Compliance Management, Taxes, Accounting & Finance.
+
+**Gate 2 — SubLimit and StockStart are queued, not blocked by us:**
+> "We need to approve one of your recent submissions before you can submit more."
+
+SaaSHub allows only one pending submission at a time on the free tier. Submit SubLimit as soon as SaleLedger or
+LeafLedger is approved (up to 32 days free; $75 jumps the queue — not taken).
+
+**Both live listings were then filled out completely** (this is what a bare submission does NOT include, and it
+is most of the value):
+- Long description, HQ Denver / Colorado / United States (city and state only, never the street address),
+  employees 1-9, founder "Abel Abebe", open source = No.
+- Pricing: SaleLedger $129/month, LeafLedger $199/month, USD, monthly, free trial = Yes, free tier = No.
+  `price_info` has a 60-character limit.
+- Three features each, and supported platform = Windows (desktop).
+- Product URL changed to carry `?utm_source=saashub&utm_medium=directory&utm_campaign=saashub`, so the Growth
+  dashboard attributes any visit SaaSHub sends. URL changes go through "Suggest Changes" and are moderated.
+
+**Form notes for next time:** tagline hard limit 250 chars; `price_info` 60 chars; the submission form's
+`company_name` field is a spam honeypot — leave it empty; once logged in the contact-email field disappears and
+the account email is used instead; the `?url=` query parameter on /services/new is unreliable, so type the URL
+into the first-step box instead.
+
+**Still owner-only:** AlternativeTo sign-in (Google, inside the Claude browser pane — a Chrome session is
+invisible to it), and any "verify you are human" check.
