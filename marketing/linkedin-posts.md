@@ -101,3 +101,15 @@ I put up a free calculator that does this in the browser — contract type, gove
 Full disclosure: I build compliance software, so that's my bias on the table. The calculator is free and needs no sign-up.
 
 Anyone who's been through an SBA review on this — I'd like to hear where the edge cases bit you.
+
+---
+
+## Driver DM — ProfitPin (2 sentences, APPROVED WORDING, NOT YET SENT)
+
+Only sendable to 1st-degree connections (messaging a non-connection needs Premium). As drivers accept the pending
+invites they become messageable. **Owner's standing rule: do not send without his explicit go-ahead.**
+
+Hi [first name] — I built ProfitPin, personal dispatch for drivers: it watches your apps at once and tells you take, watch or skip on each offer. It's in early trial on Android and free to test if you want in — I'm after honest feedback from full-time drivers more than downloads.
+
+Connections as of 2026-09-23: Leonardo Rodríguez (Uber driver — the only driver), Jonathan Guzman (logistics ops),
+Michael Valdez Sanders (GovCon CEO). 78 driver invites still pending.
