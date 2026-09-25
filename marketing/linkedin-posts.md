@@ -111,5 +111,10 @@ invites they become messageable. **Owner's standing rule: do not send without hi
 
 Hi [first name] — I built ProfitPin, personal dispatch for drivers: it watches your apps at once and tells you take, watch or skip on each offer. It's in early trial on Android and free to test if you want in — I'm after honest feedback from full-time drivers more than downloads.
 
-Connections as of 2026-09-23: Leonardo Rodríguez (Uber driver — the only driver), Jonathan Guzman (logistics ops),
-Michael Valdez Sanders (GovCon CEO). 78 driver invites still pending.
+Connections as of 2026-09-24: **three drivers now messageable** — Leonardo Rodríguez (Uber), Salid Maharjan
+(independent rideshare, Uber) and Joe Barreras (DoorDash/Uber) — plus Jonathan Guzman (logistics ops),
+Michael Valdez Sanders (GovCon CEO) and Richard Johnson (coach). 100 driver invites pending.
+
+Note 2026-09-24: the LinkedIn weekly invite cap is a **rolling** window, not a Monday reset — capacity returns
+gradually, so test with one invite rather than waiting for a fixed date. A drivers-first founder post went up on
+2026-09-24 (text only; image upload is not possible from a Claude session — see the blocker note in memory).
