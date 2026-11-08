@@ -238,7 +238,7 @@
       <a href="#approach">Approach</a>
       <a href="#guides">Guides</a>
       <a href="#about">About</a>
-      <a href="mailto:support@profitpingroup.com">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -435,8 +435,24 @@
   </div>
 </section>
 
+<section id="contact" class="tight" aria-labelledby="contact-title" style="scroll-margin-top:100px">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Get in touch</div>
+      <h2 id="contact-title">Contact ProfitPin Group</h2>
+      <p>Questions about a product, support, or working with us? Email our team and include the product name so we can direct your message.</p>
+    </div>
+    <p><a id="contact-email" href="mailto:support@profitpingroup.com" style="font-size:1.15rem;overflow-wrap:anywhere">support@profitpingroup.com</a></p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0">
+      <a class="btn" href="mailto:support@profitpingroup.com">Open email app</a>
+      <button class="btn outline" id="copy-contact-email" type="button" style="font:inherit;cursor:pointer">Copy email address</button>
+    </div>
+    <p style="color:var(--slate-soft)">Using webmail? Copy the address and paste it into a new message in your email service.</p>
+    <p id="contact-copy-status" role="status" aria-live="polite" style="min-height:1.5em"></p>
+  </div>
+</section>
 </main>
-<footer id="contact">
+<footer>
   <div class="wrap">
     <div>
       <div class="brand-foot"><span class="mark-foot">P</span>ProfitPin Group</div>
@@ -479,5 +495,16 @@
   </div>
 </footer>
 
+<script>
+document.getElementById('copy-contact-email').addEventListener('click', async function () {
+  var status = document.getElementById('contact-copy-status');
+  try {
+    await navigator.clipboard.writeText('support@profitpingroup.com');
+    status.textContent = 'Email address copied. Paste it into a new message in your email service.';
+  } catch (error) {
+    status.textContent = 'Please select and copy the email address above, then paste it into a new message.';
+  }
+});
+</script>
 <script src="/lead-source.js" defer></script></body>
 </html>
