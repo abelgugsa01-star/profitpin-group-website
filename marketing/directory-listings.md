@@ -57,9 +57,9 @@ Screenshots: use the tutorial-video frames in each repo's `website/tutorial-medi
 - **Category:** Field Service / Inventory / HVAC-Plumbing-Electrical
 - **Short description:** Reads supplier invoices against your ServiceTitan pricebook export, matches existing items, flags new parts, units and price changes, and produces clean updates to import back.
 - **Long description:**
-  StockStart keeps a contractor's ServiceTitan pricebook current as supplier invoices arrive. Export your pricebook once; then drop in each week's invoices, receipts, photos and spreadsheets. StockStart reads every line, matches it to existing items by part number and unit, proposes genuinely new items, catches unit-of-measure mismatches, duplicates and cost changes, and holds anything uncertain in a review queue with the source image attached. Approve, and it patches the changes into your own exported workbook in the layout ServiceTitan's import expects. No API connection, nothing writes to your tenant automatically. For HVAC, plumbing, electrical and maintenance shops. $129/month, first 30 days free, unlimited invoices.
+  StockStart keeps a contractor's ServiceTitan pricebook current as supplier invoices arrive. Export your pricebook once; then drop in each week's invoices, receipts, photos and spreadsheets. StockStart reads every line, matches it to existing items by part number and unit, proposes genuinely new items, catches unit-of-measure mismatches, duplicates and cost changes, and holds anything uncertain in a review queue with the source image attached. Approve, and it patches the changes into your own exported workbook in the layout ServiceTitan's import expects. No API connection, nothing writes to your tenant automatically. For HVAC, plumbing, electrical and maintenance shops. $129/month, 14-day free trial, unlimited invoices.
 - **Key features:** Invoice OCR (PDF, photo, spreadsheet) · Part-number and unit matching · New-item proposals · Duplicate and cost-change detection · Review queue with source evidence · ServiceTitan-ready export · Weekly routine
-- **Pricing:** $129.00/month, 30-day free trial
+- **Pricing:** $129.00/month, 14-day free trial
 - **Platform:** Web app (app.getstockstart.com)
 - **Support:** support@getstockstart.com
 - **Link:** https://getstockstart.com/?utm_source=directory&utm_campaign=capterra
